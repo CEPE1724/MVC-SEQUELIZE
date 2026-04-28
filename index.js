@@ -13,7 +13,7 @@ const port = 3977;
 // Bloque 4: Habilitar CORS
 app.use(cors());
 
-// Bloque 5: Parsear JSON y form-urlencoded
+// Bloque 5: Parsear JSON 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
